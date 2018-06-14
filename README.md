@@ -16,7 +16,7 @@ var ribotInstance = ribot.build({
 });
 
 // watch (return ribot instance)
-var ribotInstance = ribot.build({
+var ribotInstance = ribot.watch({
   target: 'src',
   output: 'dst',
   options: {
