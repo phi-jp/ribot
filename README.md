@@ -4,7 +4,6 @@ riot builder
 ## usage
 
 ```
-var path = require('path');
 var ribot = require('ribot')
 
 // build (return ribot instance)
