@@ -1,6 +1,6 @@
 {
   "name": "ribot",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "riot builder",
   "main": "index.js",
   "scripts": {
