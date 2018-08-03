@@ -32,7 +32,7 @@ if (targets.length < 2) {
   process.exit(1);
 }
 const [target, output] = targets.map(target => path.resolve(target));
-var ribot = require('../ribot').create({ target, output });
+const ribot = require('../ribot').create({ target, output });
 if (options.template) {
   ribot.setTemplate(options.template);
 }
